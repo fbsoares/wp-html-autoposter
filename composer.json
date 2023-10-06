@@ -1,0 +1,23 @@
+{
+    "name": "fbsoares/wp-html-autoposter",
+    "description": "WordPress HTML Files auto poster",
+    "type": "library",
+    "require": {
+        "wp-api/client": "dev-master",
+        "vlucas/phpdotenv": "^5.5@dev",
+        "guzzle/guzzle": "^3.9@dev",
+        "guzzlehttp/guzzle": "7.9.x-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Fbsoares\\WpHtmlAutoposter\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "fbsoares"
+        }
+    ],
+    "minimum-stability": "dev"
+}
